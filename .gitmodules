@@ -1,42 +1,29 @@
 [submodule "computecpp"]
 path=computecpp
 url = https://aur.archlinux.org/computecpp.git
-[submodule "ncl"]
-path=ncl
-url = https://github.com/ralic/ncl_ncarg.git
-[submodule "ncl/pyngl"]
-path=ncl/pyngl
-url = https://github.com/NCAR/pyngl
-[submodule "ncl/pynio"]
-path=ncl/pynio
-url = https://github.com/NCAR/pynio
 [submodule "opencl/OpenCL-CLHPP"]
 path=opencl/OpenCL-CLHPP
 url = https://github.com/NCAR/pyngl
 [submodule "opencl/OpenCL-CLHPP/CMock"]
 path=opencl/OpenCL-CLHPP/CMock
-url = https://github.com/NCAR/pynio
+url = https://github.com/ThrowTheSwitch/CMock.git
 [submodule "opencl/OpenCL-CLHPP/OpenCL-Headers"]
 path=opencl/OpenCL-CLHPP/OpenCL-Headers
-url = https://github.com/NCAR/pyngl
+url = https://github.com/KhronosGroup/OpenCL-Headers.git
 [submodule "opencl/OpenCL-CLHPP/Unity"]
 path=opencl/OpenCL-CLHPP/Unity
-url = https://github.com/ThrowTheSwitch/CMock.git
+url = https://github.com/ThrowTheSwitch/Unity.git
 [submodule "openmp"]
 path=openmp
-url = https://github.com/KhronosGroup/OpenCL-Headers.git
+url = https://github.com/llvm-mirror/openmp.git
 [submodule "sycl-blas"]
 path=sycl-blas
-url = https://github.com/ThrowTheSwitch/Unity.git
+url = https://github.com/ralic/openmp
 [submodule "SyclParallelSTL"]
 path=SyclParallelSTL
-url = https://github.com/llvm-mirror/openmp.git
+url = https://github.com/codeplaysoftware/sycl-blas
 [submodule "triSYCL"]
 path=triSYCL
-url = https://github.com/ralic/openmp
-
-url = https://github.com/codeplaysoftware/sycl-blas
-
 url = https://github.com/KhronosGroup/SyclParallelSTL
 
 url = https://github.com/triSYCL/triSYCL
