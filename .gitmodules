@@ -1,29 +1,18 @@
 [submodule "computecpp"]
 path=computecpp
 url = https://aur.archlinux.org/computecpp.git
-[submodule "opencl/OpenCL-CLHPP"]
-path=opencl/OpenCL-CLHPP
-url = https://github.com/NCAR/pyngl
-[submodule "opencl/OpenCL-CLHPP/CMock"]
-path=opencl/OpenCL-CLHPP/CMock
-url = https://github.com/ThrowTheSwitch/CMock.git
-[submodule "opencl/OpenCL-CLHPP/OpenCL-Headers"]
-path=opencl/OpenCL-CLHPP/OpenCL-Headers
-url = https://github.com/KhronosGroup/OpenCL-Headers.git
-[submodule "opencl/OpenCL-CLHPP/Unity"]
-path=opencl/OpenCL-CLHPP/Unity
-url = https://github.com/ThrowTheSwitch/Unity.git
+[submodule "OpenCL-CLHPP"]
+path=OpenCL-CLHPP
+url = https://github.com/KhronosGroup/OpenCL-CLHPP
 [submodule "openmp"]
 path=openmp
 url = https://github.com/llvm-mirror/openmp.git
 [submodule "sycl-blas"]
 path=sycl-blas
-url = https://github.com/ralic/openmp
+url = https://github.com/codeplaysoftware/sycl-blas
 [submodule "SyclParallelSTL"]
 path=SyclParallelSTL
-url = https://github.com/codeplaysoftware/sycl-blas
+url = https://github.com/KhronosGroup/SyclParallelSTL
 [submodule "triSYCL"]
 path=triSYCL
-url = https://github.com/KhronosGroup/SyclParallelSTL
-
 url = https://github.com/triSYCL/triSYCL
